@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import * as util from "util";
 
 // if you ask 
 // http://steamcommunity.com/market/priceoverview/?appid=730&currency=3&market_hash_name=StatTrak%E2%84%A2 M4A1-S | Hyper Beast (Minimal Wear)
@@ -20,7 +21,5 @@ const generateDataUrl = (id: string, name: string) =>
 export const getData = async (id: string, name: string): Promise<SteamPriceData> => {
     const dataUrl = generateDataUrl(id, name);
     const result = await fetch(dataUrl);
-    const json = await result.json();
-    console.log(`json ${json}`);
-    return json;
+    return await result.json();
 };
