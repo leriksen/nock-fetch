@@ -1,0 +1,58 @@
+[
+    {
+        "scope": "http://steamcommunity.com:80",
+        "method": "GET",
+        "path": "/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
+        "body": "",
+        "status": 302,
+        "response": "",
+        "rawHeaders": [
+            "Server",
+            "AkamaiGHost",
+            "Content-Length",
+            "0",
+            "Location",
+            "https://steamcommunity.com/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
+            "Date",
+            "Sat, 16 Mar 2019 12:32:32 GMT",
+            "Connection",
+            "close"
+        ]
+    },
+    {
+        "scope": "https://steamcommunity.com:443",
+        "method": "GET",
+        "path": "/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
+        "body": "",
+        "status": 200,
+        "response": [
+            "1f8b0800000000000003ab562a2e4d4e4e2d2e56b22a292a4dd551cac92f4f2d2e892f28ca4c4e55b25232d031328c293532484c56d2512acbcf29cd05891a991900b9b9a929998979c84a8da04a6b01a36dde5a57000000"
+        ],
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Vary",
+            "Accept-Encoding, Origin",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Cache-Control",
+            "public,max-age=15",
+            "Expires",
+            "Sat, 16 Mar 2019 12:32:47 GMT",
+            "Last-Modified",
+            "Sat, 16 Mar 2019 12:32:30 GMT",
+            "Content-Encoding",
+            "gzip",
+            "Vary",
+            "Accept-Encoding",
+            "Content-Length",
+            "88",
+            "Date",
+            "Sat, 16 Mar 2019 12:32:32 GMT",
+            "Connection",
+            "close"
+        ]
+    }
+]
