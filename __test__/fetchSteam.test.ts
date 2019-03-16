@@ -2,7 +2,6 @@ import "jest";
 
 import { setupRecorder } from "nock-record";
 import { getData } from "../src/fetchSteam";
-// import {defaultOptions} from '../helpers/nock';
 
 const record = setupRecorder();
 

@@ -1,5 +1,4 @@
 import fetch from "node-fetch";
-import * as util from "util";
 
 // if you ask 
 // http://steamcommunity.com/market/priceoverview/?appid=730&currency=3&market_hash_name=StatTrak%E2%84%A2 M4A1-S | Hyper Beast (Minimal Wear)

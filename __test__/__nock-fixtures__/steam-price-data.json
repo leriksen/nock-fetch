@@ -14,7 +14,7 @@
             "Location",
             "https://steamcommunity.com/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
             "Date",
-            "Sat, 16 Mar 2019 12:32:32 GMT",
+            "Sat, 16 Mar 2019 13:34:53 GMT",
             "Connection",
             "close"
         ]
@@ -26,7 +26,7 @@
         "body": "",
         "status": 200,
         "response": [
-            "1f8b0800000000000003ab562a2e4d4e4e2d2e56b22a292a4dd551cac92f4f2d2e892f28ca4c4e55b25232d031328c293532484c56d2512acbcf29cd05891a991900b9b9a929998979c84a8da04a6b01a36dde5a57000000"
+            "1f8b0800000000000003ab562a2e4d4e4e2d2e56b22a292a4dd551cac92f4f2d2e892f28ca4c4e55b25232d0313288293532484c56d2512acbcf29cd05891a999a02b9b9a929998979c84a8da04a6b0184d275cf57000000"
         ],
         "rawHeaders": [
             "Server",
@@ -40,9 +40,9 @@
             "Cache-Control",
             "public,max-age=15",
             "Expires",
-            "Sat, 16 Mar 2019 12:32:47 GMT",
+            "Sat, 16 Mar 2019 13:35:08 GMT",
             "Last-Modified",
-            "Sat, 16 Mar 2019 12:32:30 GMT",
+            "Sat, 16 Mar 2019 13:34:45 GMT",
             "Content-Encoding",
             "gzip",
             "Vary",
@@ -50,7 +50,7 @@
             "Content-Length",
             "88",
             "Date",
-            "Sat, 16 Mar 2019 12:32:32 GMT",
+            "Sat, 16 Mar 2019 13:34:53 GMT",
             "Connection",
             "close"
         ]
