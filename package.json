@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.11",
+    "@types/node-fetch": "^2.1.6",
     "jest": "^24.5.0",
     "nock": "^10.0.6",
     "ts-jest": "^24.0.0",
@@ -18,7 +19,6 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "@types/node-fetch": "^2.1.6",
     "node-fetch": "^2.3.0"
   }
 }
