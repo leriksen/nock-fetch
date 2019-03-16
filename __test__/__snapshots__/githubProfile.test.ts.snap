@@ -1,5 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`githubPrfile getData gets data on another user from Github 1`] = `
+Object {
+  "avatar_url": "https://avatars3.githubusercontent.com/u/765358?v=4",
+  "bio": "Web developer at paperflies.com. Preferred stack: React, NodeJS, Typescript, Kubernetes.",
+  "blog": "edo.rivai.nl",
+  "company": "PaperFlies",
+  "created_at": "2011-05-03T10:07:39Z",
+  "email": null,
+  "events_url": "https://api.github.com/users/edorivai/events{/privacy}",
+  "followers": 6,
+  "followers_url": "https://api.github.com/users/edorivai/followers",
+  "following": 1,
+  "following_url": "https://api.github.com/users/edorivai/following{/other_user}",
+  "gists_url": "https://api.github.com/users/edorivai/gists{/gist_id}",
+  "gravatar_id": "",
+  "hireable": null,
+  "html_url": "https://github.com/edorivai",
+  "id": 765358,
+  "location": "Vienna",
+  "login": "edorivai",
+  "name": "Edo Rivai",
+  "node_id": "MDQ6VXNlcjc2NTM1OA==",
+  "organizations_url": "https://api.github.com/users/edorivai/orgs",
+  "public_gists": 4,
+  "public_repos": 41,
+  "received_events_url": "https://api.github.com/users/edorivai/received_events",
+  "repos_url": "https://api.github.com/users/edorivai/repos",
+  "site_admin": false,
+  "starred_url": "https://api.github.com/users/edorivai/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/edorivai/subscriptions",
+  "type": "User",
+  "updated_at": "2019-02-12T10:41:38Z",
+  "url": "https://api.github.com/users/edorivai",
+}
+`;
+
 exports[`githubPrfile getData gets data on user from Github 1`] = `
 Object {
   "avatar_url": "https://avatars2.githubusercontent.com/u/441543?v=4",
