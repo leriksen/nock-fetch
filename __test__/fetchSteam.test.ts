@@ -3,7 +3,7 @@ import "jest";
 import * as nock from "nock";
 import fetch from "node-fetch";
 
-import { getData, generateDataUrl, SteamPriceData } from "../src/fetchSteam";
+import { getData, SteamPriceData } from "../src/fetchSteam";
 
 describe("fetchSteam", () => {
     describe("getData", () => {
@@ -12,7 +12,7 @@ describe("fetchSteam", () => {
 
         beforeAll(() => {
             nock(`http://steamcommunity.com`)
-            .get(`/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE`)
+            .get(/^\/market\/priceoverview\/\?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE$/)
             .reply(
                 200,
                 {
