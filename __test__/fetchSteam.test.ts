@@ -25,12 +25,7 @@ describe("fetchSteam", () => {
         });
 
         it("gets data from Steam", async () => {
-            return expect(await getData('578080', 'GAMESCOM INVITATIONAL CRATE')).toEqual({
-                lowest_price: "0,21€",
-                median_price: "0,20€",
-                success: true,
-                volume: "250"
-            });
+            return expect(await getData('578080', 'GAMESCOM INVITATIONAL CRATE')).toMatchSnapshot();
         });
     });
 });

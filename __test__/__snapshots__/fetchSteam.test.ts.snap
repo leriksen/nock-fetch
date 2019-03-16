@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchSteam getData gets data from Steam 1`] = `
+Object {
+  "lowest_price": "0,21€",
+  "median_price": "0,20€",
+  "success": true,
+  "volume": "250",
+}
+`;
