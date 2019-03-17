@@ -1,25 +1,5 @@
 [
     {
-        "scope": "http://steamcommunity.com:80",
-        "method": "GET",
-        "path": "/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
-        "body": "",
-        "status": 302,
-        "response": "",
-        "rawHeaders": [
-            "Server",
-            "AkamaiGHost",
-            "Content-Length",
-            "0",
-            "Location",
-            "https://steamcommunity.com/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
-            "Date",
-            "Sat, 16 Mar 2019 13:51:04 GMT",
-            "Connection",
-            "close"
-        ]
-    },
-    {
         "scope": "https://steamcommunity.com:443",
         "method": "GET",
         "path": "/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
