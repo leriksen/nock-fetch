@@ -14,7 +14,7 @@ export interface SteamPriceData {
 }
 
 const generateDataUrl = (id: string, name: string) =>
-  `http://steamcommunity.com/market/priceoverview/` +
+  `https://steamcommunity.com/market/priceoverview/` +
   `?appid=${id}&country=DE&currency=3&market_hash_name=${encodeURIComponent(name.toUpperCase())}`;
 
 export const getData = async (id: string, name: string): Promise<SteamPriceData> => {
