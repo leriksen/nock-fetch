@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`githubPrfile getData gets data on another user from Github 1`] = `
+exports[`githubProfile getData gets data on another user from Github 1`] = `
 Object {
   "avatar_url": "https://avatars3.githubusercontent.com/u/765358?v=4",
   "bio": "Web developer at paperflies.com. Preferred stack: React, NodeJS, Typescript, Kubernetes.",
@@ -36,7 +36,7 @@ Object {
 }
 `;
 
-exports[`githubPrfile getData gets data on user from Github 1`] = `
+exports[`githubProfile getData gets data on user from Github 1`] = `
 Object {
   "avatar_url": "https://avatars2.githubusercontent.com/u/441543?v=4",
   "bio": null,
