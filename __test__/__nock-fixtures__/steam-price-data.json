@@ -5,9 +5,12 @@
         "path": "/market/priceoverview/?appid=578080&country=DE&currency=3&market_hash_name=GAMESCOM%20INVITATIONAL%20CRATE",
         "body": "",
         "status": 200,
-        "response": [
-            "1f8b0800000000000003ab562a2e4d4e4e2d2e56b22a292a4dd551cac92f4f2d2e892f28ca4c4e55b25232d031328c293532484c56d2512acbcf29cd05891a999a02b9b9a929998979c84a8da04a6b01892eb9a657000000"
-        ],
+        "response": {
+            "success": true,
+            "lowest_price": "0,27€",
+            "volume": "435",
+            "median_price": "0,27€"
+        },
         "rawHeaders": [
             "Server",
             "nginx",
@@ -20,17 +23,13 @@
             "Cache-Control",
             "public,max-age=15",
             "Expires",
-            "Sat, 16 Mar 2019 13:51:20 GMT",
+            "Sat, 23 Mar 2019 11:41:41 GMT",
             "Last-Modified",
-            "Sat, 16 Mar 2019 13:51:00 GMT",
-            "Content-Encoding",
-            "gzip",
+            "Sat, 23 Mar 2019 11:41:15 GMT",
             "Vary",
-            "Accept-Encoding",
-            "Content-Length",
-            "88",
+            "86",
             "Date",
-            "Sat, 16 Mar 2019 13:51:05 GMT",
+            "Sat, 23 Mar 2019 11:41:26 GMT",
             "Connection",
             "close"
         ]
