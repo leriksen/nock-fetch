@@ -23,6 +23,6 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.0"
   }
 }
