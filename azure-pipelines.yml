@@ -9,6 +9,7 @@ stages:
 - stage: dev
   jobs:
   - deployment:
+    environment: development
     pool:
       vmImage: ubuntu-latest
     strategy:
