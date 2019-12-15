@@ -1,5 +1,5 @@
 {
-  "name": "nock-test",
+  "name": "@leriksen/nock-test",
   "version": "1.0.0",
   "description": "playing with mocking node-fetch with nock",
   "main": "index.js",
