@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "ci": "jest --ci --reporters=jest-junit --reporters=jest-stare",
+    "ci": "jest --ci --reporters=jest-junit",
     "watch": "jest --watch"
   },
   "keywords": [],
