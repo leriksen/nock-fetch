@@ -19,8 +19,6 @@ stages:
         deploy:
           steps:
             - checkout: self
-            - script: echo "//$(registry)/:_authToken=$(access_token)" > .npmrc
-              displayName: create .npmrc
             - task: NodeTool@0
               inputs:
                 versionSpec: '10.x'
@@ -55,6 +53,3 @@ stages:
                 customRegistry: useNpmrc
                 publishPackageMetadata: true
                 publishEndpoint: npmjs
-            - script: rm .npmrc
-              displayName: clean .npmrc
-              condition: succeededOrFailed()
