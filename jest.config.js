@@ -7,9 +7,10 @@ module.exports = {
     [
       'jest-stare',
       {
-        "coverageLink": "../coverage/lcov-report/index.html",
+        "coverageLink": "../coverage/index.html",
       }
     ]
  ],
-  collectCoverage: true
+  collectCoverage: true,
+  coverageReporters: [ 'html', 'cobertura' ]
 };

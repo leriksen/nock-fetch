@@ -20,35 +20,37 @@ stages:
           steps:
             - checkout: self
             - script: echo "//$(registry)/:_authToken=$(access_token)" > .npmrc
+              displayName: create .npmrc
             - task: NodeTool@0
               inputs:
                 versionSpec: '10.x'
               displayName: 'Install Node.js'
             - task: Npm@1
+              displayName: npm install
               inputs:
                 command: install
                 customRegistry: useNpmrc
             - task: Npm@1
+              displayName: run ci tests
               inputs:
                 command: custom
                 customRegistry: useNpmrc
                 customCommand: run ci
             - task: PublishTestResults@2
+              displayName: publish JUnit
               condition: succeededOrFailed()
               inputs:
                 testRunner: JUnit
                 testResultsFiles: '**/junit.xml'
-            - task: PublishPipelineArtifact@1
+            - task: PublishCodeCoverageResults@1
               inputs:
-                artifactName: test-report
-                targetPath: ./jest-stare
-            - task: PublishPipelineArtifact@1
-              inputs:
-                artifactName: coverage-report
-                targetPath: ./coverage
+                codeCoverageTool: 'cobertura'
+                summaryFileLocation: 'coverage/cobertura-coverage.xml'
+                reportDirectory: './coverage'
             # - task: Npm@1
             #   command: publish
             #   customRegistry: useNpmrc
             #   publishPackageMetadata: true
             - script: rm .npmrc
+              displayName: clean .npmrc
               condition: succeededOrFailed()
