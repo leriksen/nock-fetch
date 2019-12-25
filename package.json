@@ -1,7 +1,7 @@
 {
   "name": "@leriksen/nock-test",
-  "version": "1.0.0",
-  "description": "playing with mocking node-fetch with nock",
+  "version": "1.0.1",
+  "description": "mocking node-fetch with nock",
   "main": "index.js",
   "scripts": {
     "test": "jest",
