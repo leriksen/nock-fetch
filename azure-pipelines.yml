@@ -38,9 +38,14 @@ stages:
               inputs:
                 testRunner: JUnit
                 testResultsFiles: '**/junit.xml'
-            - task: PublishBuildArtifacts@1
+            - task: PublishPipelineArtifact@1
               inputs:
-                artifactName: test-report 
+                artifactName: test-report
+                targetPath: ./jest-stare
+            - task: PublishPipelineArtifact@1
+              inputs:
+                artifactName: coverage-report
+                targetPath: ./coverage
             # - task: Npm@1
             #   command: publish
             #   customRegistry: useNpmrc
