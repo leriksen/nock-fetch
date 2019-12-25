@@ -25,12 +25,14 @@ stages:
                 versionSpec: '10.x'
               displayName: 'Install Node.js'
             - task: Npm@1
-              command: install
-              customRegistry: useNpmrc
+              inputs:
+                command: install
+                customRegistry: useNpmrc
             - task: Npm@1
-              command: custom
-              customRegistry: useNpmrc
-              customCommand: run ci
+              inputs:
+                command: custom
+                customRegistry: useNpmrc
+                customCommand: run ci
             - task: PublishTestResults@2
               condition: succeededOrFailed()
               inputs:
