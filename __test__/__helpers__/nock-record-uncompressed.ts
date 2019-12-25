@@ -3,6 +3,8 @@
 
 import zlib from 'zlib';
 
+
+// noinspection JSUnusedGlobalSymbols
 export const defaultOptions: any = {
   afterRecord: (outputs: any[]): any[] => {
     return outputs.map(output => makeCompressedResponsesReadable(output));
@@ -35,7 +37,7 @@ const makeCompressedResponsesReadable = (scope) => {
       // decompressed the response
       scope.response = JSON.parse(zlib.gunzipSync(Buffer.from(fullResponseBody, 'hex')).toString('utf8'));
     } catch (e) {
-      console.warn(`unable to decompress response from ${scope.scope}/${scope.path} - ${e.message}`)
+      console.warn(`unable to decompress response from ${scope.scope}/${scope.path} - ${e.message}`);
       scope.response = '';
     }
 
