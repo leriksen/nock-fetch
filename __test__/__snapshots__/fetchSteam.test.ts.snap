@@ -2,9 +2,9 @@
 
 exports[`fetchSteam getData gets data from Steam 1`] = `
 Object {
-  "lowest_price": "0,27€",
+  "lowest_price": "0,28€",
   "median_price": "0,27€",
   "success": true,
-  "volume": "435",
+  "volume": "233",
 }
 `;
