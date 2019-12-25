@@ -43,6 +43,7 @@ stages:
                 testRunner: JUnit
                 testResultsFiles: '**/junit.xml'
             - task: PublishCodeCoverageResults@1
+              displayName: publish coverage
               inputs:
                 codeCoverageTool: 'cobertura'
                 summaryFileLocation: 'coverage/cobertura-coverage.xml'
