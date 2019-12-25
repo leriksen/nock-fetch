@@ -1,2 +1,6 @@
 node_modules
 .idea
+junit.xml
+nock-fetch.code-workspace
+coverage
+jest-stare
