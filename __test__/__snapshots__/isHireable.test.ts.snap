@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isHireable isHireable gets hireable status on a hireable user from Github 1`] = `true`;
+
+exports[`isHireable isHireable gets hireable status on an unhireable user from Github 1`] = `false`;
