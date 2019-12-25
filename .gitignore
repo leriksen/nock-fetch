@@ -4,3 +4,4 @@ junit.xml
 nock-fetch.code-workspace
 coverage
 jest-stare
+/__test__/__nock-fixtures__/
