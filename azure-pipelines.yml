@@ -1,9 +1,4 @@
-trigger:
-- master
-
-resources:
-  repositories:
-  - repository: self
+trigger: none
 
 stages:
 - stage: dev
